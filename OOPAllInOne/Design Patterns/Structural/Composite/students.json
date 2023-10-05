@@ -1,0 +1,26 @@
+{
+  "students": [
+
+    {
+      "name": "Türkay",
+      "lastName": "Ürkmez",
+      "score": 80,
+      "address": {
+        "city": "Eskişehir",
+        "street": "Sümer mh. ",
+        "post": 26140
+      }
+    },
+    {
+      "name": "Türkay",
+      "lastName": "Ürkmez",
+      "score": 80,
+      "address": {
+        "city": "Eskişehir",
+        "street": "Sümer mh. ",
+        "post": 26140
+      }
+    }
+
+  ]
+}

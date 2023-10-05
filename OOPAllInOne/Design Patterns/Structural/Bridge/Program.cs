@@ -14,9 +14,10 @@ var pdfFormat = new PDFFormat();
 var excelFormat = new ExcelFormat();
 
 
+
 var salesReport = new SalesReport();
 salesReport.ReportFormat = pdfFormat;
-
-
+salesReport.ReportFormat = excelFormat;
+salesReport.ReportFormat = new HtmlFormat();
 
 
