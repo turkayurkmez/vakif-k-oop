@@ -20,7 +20,18 @@
         private Logger()
         {
 
+
         }
 
     }
+    public interface ILogger
+    {
+        void LogInfo();
+    }
+
+
+    //public static class StaticLogger : ILogger
+    //{
+    //    public static void LogInfo() => Console.WriteLine("Loglandı");
+    //}
 }
