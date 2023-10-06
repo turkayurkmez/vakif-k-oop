@@ -56,4 +56,17 @@
             this._mail.Send();
         }
     }
+
+    public class AddAttechment : MailDecorator
+    {
+        public AddAttechment(IMail mail) : base(mail)
+        {
+        }
+
+        public override void Send()
+        {
+            Console.WriteLine("Dosya ekleneme aktif");
+            _mail.Send();
+        }
+    }
 }
