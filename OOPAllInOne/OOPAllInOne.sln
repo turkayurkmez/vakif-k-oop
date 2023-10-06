@@ -61,6 +61,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Design Patterns
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilty", "Design Patterns\Behavioral\ChainOfResponsibilty\ChainOfResponsibilty.csproj", "{8DCCFEF9-B908-4B4B-A66E-23C93486E418}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Design Patterns\Behavioral\Command\Command.csproj", "{CAEE7090-754C-4C64-87CB-E7FE8BE0B75F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Design Patterns\Behavioral\Iterator\Iterator.csproj", "{BC3600E5-3359-4286-AE8E-835B61A1CF23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +163,14 @@ Global
 		{8DCCFEF9-B908-4B4B-A66E-23C93486E418}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DCCFEF9-B908-4B4B-A66E-23C93486E418}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DCCFEF9-B908-4B4B-A66E-23C93486E418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAEE7090-754C-4C64-87CB-E7FE8BE0B75F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAEE7090-754C-4C64-87CB-E7FE8BE0B75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAEE7090-754C-4C64-87CB-E7FE8BE0B75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAEE7090-754C-4C64-87CB-E7FE8BE0B75F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC3600E5-3359-4286-AE8E-835B61A1CF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC3600E5-3359-4286-AE8E-835B61A1CF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC3600E5-3359-4286-AE8E-835B61A1CF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC3600E5-3359-4286-AE8E-835B61A1CF23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -190,6 +202,8 @@ Global
 		{0519908F-0DAC-4F1F-B162-8567FF06C778} = {48630FC7-9E90-448C-A407-7AD435D0F46D}
 		{D86AD9C7-617C-4A34-A4E3-A6649D5B7C39} = {9D1CB353-B8A8-4A8D-A636-32197DD3C786}
 		{8DCCFEF9-B908-4B4B-A66E-23C93486E418} = {9D1CB353-B8A8-4A8D-A636-32197DD3C786}
+		{CAEE7090-754C-4C64-87CB-E7FE8BE0B75F} = {9D1CB353-B8A8-4A8D-A636-32197DD3C786}
+		{BC3600E5-3359-4286-AE8E-835B61A1CF23} = {9D1CB353-B8A8-4A8D-A636-32197DD3C786}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {64AE47C9-1550-43D6-B308-B9B3985891B5}
